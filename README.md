@@ -10,7 +10,7 @@ Website penjualan rumah mewah dengan desain profesional .
 ## Cara Online
 Upload ke GitHub → Settings → Pages
 
- https://github.com/ribiidinata-tech/luxury-property.git
+ 
 
 
 
