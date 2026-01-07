@@ -1,0 +1,6 @@
+luxury-property/
+│── index.html
+│── detail.html
+│── style.css
+│── script.js
+│── README.md

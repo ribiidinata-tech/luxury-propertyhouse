@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Luxury Property Indonesia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <h1>Luxury Property Indonesia</h1>
+    </header>
+
+    <section class="hero">
+        <h2>Jual & Beli Rumah Mewah</h2>
+        <p>Properti Eksklusif di Lokasi Premium Indonesia</p>
+    </section>
+
+    <section class="filter">
+        <select id="lokasi">
+            <option value="all">Semua Lokasi</option>
+            <option value="jakarta">Jakarta</option>
+            <option value="bali">Bali</option>
+        </select>
+
+        <select id="harga">
+            <option value="all">Semua Harga</option>
+            <option value="low">&lt; 20 M</option>
+            <option value="high">&gt; 20 M</option>
+        </select>
+    </section>
+
+    <section class="property" id="propertyList">
+
+        <div class="card" data-lokasi="jakarta" data-harga="low">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c">
+            <h3>Villa Modern Jakarta</h3>
+            <p>Rp 15.000.000.000</p>
+            <a href="detail.html" class="btn">Detail</a>
+        </div>
+
+        <div class="card" data-lokasi="bali" data-harga="high">
+            <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9">
+            <h3>Luxury Villa Bali</h3>
+            <p>Rp 25.000.000.000</p>
+            <a href="detail.html" class="btn">Detail</a>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Luxury Property Indonesia</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
