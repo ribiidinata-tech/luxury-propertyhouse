@@ -10,12 +10,8 @@ Website penjualan rumah mewah dengan desain profesional .
 ## Cara Online
 Upload ke GitHub → Settings → Pages
 
-git init
-git add .
-git commit -m "Upload website luxury property"
-git branch -M main
-git remote add origin https://github.com/USERNAME/luxury-property.git
-git push -u origin main
+ https://github.com/USERNAME/luxury-property.git
+
 
 
 
